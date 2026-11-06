@@ -1,0 +1,17 @@
+{
+  "zh": {
+    "weight": 65,
+    "text_column": "content",
+    "files": ["data/ultra-fineweb/data/ultrafineweb_zh/*.parquet"]
+  },
+  "en": {
+    "weight": 25,
+    "text_column": "content",
+    "files": ["data/ultra-fineweb/data/ultrafineweb_en/*.parquet"]
+  },
+  "ja": {
+    "weight": 10,
+    "text_column": "text",
+    "files": ["data/fineweb-ja/data/train-*.parquet"]
+  }
+}

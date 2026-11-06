@@ -1,0 +1,11 @@
+torch
+transformers
+jieba
+pypinyin
+cn2an
+g2p_en
+inflect
+nltk
+num2words
+pyopenjtalk-plus
+jaconv

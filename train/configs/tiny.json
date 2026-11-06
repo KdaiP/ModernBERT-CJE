@@ -1,0 +1,44 @@
+{
+  "model_type": "modernbert",
+  "vocab_size": 58483,
+  "hidden_size": 256,
+  "intermediate_size": 640,
+  "num_hidden_layers": 6,
+  "num_attention_heads": 4,
+  "max_position_embeddings": 8192,
+  "local_attention": 128,
+  "layer_types": [
+    "full_attention",
+    "sliding_attention",
+    "sliding_attention",
+    "full_attention",
+    "sliding_attention",
+    "sliding_attention"
+  ],
+  "rope_parameters": {
+    "full_attention": {
+      "rope_theta": 160000.0,
+      "rope_type": "default"
+    },
+    "sliding_attention": {
+      "rope_theta": 10000.0,
+      "rope_type": "default"
+    }
+  },
+  "attention_dropout": 0.1,
+  "attention_bias": false,
+  "mlp_dropout": 0.0,
+  "mlp_bias": false,
+  "embedding_dropout": 0.0,
+  "norm_bias": false,
+  "norm_eps": 1e-05,
+  "pad_token_id": 0,
+  "bos_token_id": 101,
+  "eos_token_id": 102,
+  "cls_token_id": 101,
+  "sep_token_id": 102,
+  "mask_token_id": 103,
+  "unk_token_id": 100,
+  "sparse_prediction": false,
+  "tie_word_embeddings": true
+}
